@@ -1,0 +1,39 @@
+#root{ 
+    display: flex;
+    align-items: end;
+    flex-direction: column-reverse;
+    position: relative;
+    width: 500px;
+    height: 75px;
+    /* border: 1px solid black;  */
+}
+
+#target{ 
+    position: absolute;
+    width: 10px; 
+    left: 0px;
+    bottom: 10px;
+    height: 25px; 
+    background-color: greenyellow;
+    border: 2px solid darkslategrey;
+}
+
+.marks{
+display: flex;
+justify-content: space-between;
+width: 500px;
+}
+.small-mark{
+    width: 2px;
+    height: 7px;
+    border: 1px solid rgb(69, 87, 225);
+    background-color: aqua;
+}
+.line{
+    position: absolute;
+    top: 50px;;
+    width: 498px;
+    height: 1px;
+    border: 1px solid blueviolet;
+    background-color: grey;
+}
