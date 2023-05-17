@@ -16,6 +16,7 @@
     height: 25px; 
     background-color: greenyellow;
     border: 2px solid darkslategrey;
+    z-index: 1;
 }
 
 .marks{
